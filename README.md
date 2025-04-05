@@ -19,6 +19,8 @@
 
 **Tools & Environment:**
 <p>
+  <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
   <img src="https://img.shields.io/badge/Firefox-FF7139?style=flat-square&logo=Firefox-Browser&logoColor=white"/> 
   <img src="https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=Google-Chrome&logoColor=white"/>
   </p>
