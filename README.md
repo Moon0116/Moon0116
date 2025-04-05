@@ -1,9 +1,7 @@
-# 안녕하세요, 문상혁입니다! 👋
+# Hello, I'm Moon!
 
 <br/>
-## 🔧 기술 스택 (Tech Stack)
-
-제가 사용하거나 다룰 수 있는 기술들입니다:
+## 🔧 Tech Stack
 
 **Frontend:**
 <p>
@@ -27,7 +25,7 @@
 
 <br/>
 
-## 📫 연락 방법 (Contact Me)
+## Contact Me
 
 * **Email:** shmoon1593@gmail.com, shmoon12@naver.com
 * **Tel:** +82 10-9875-8389
