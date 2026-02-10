@@ -13,7 +13,7 @@ Links
 - Client: https://github.com/bbaegi-six/dondothat-client
 
 My Role
-- 팀장 및 백엔드 리드로 서버 아키텍처와 데이터 처리 흐름 설계
+- 백엔드 리드로 서버 아키텍처와 데이터 처리 흐름 설계
 - CODEF API 연동을 통한 계좌·거래내역 수집 및 중복·누락 방지 로직 구현
 - 키워드 기반 1차 분류와 LLM 기반 2차 분류를 결합한 지출 분류 구조 설계
 - Redis Pub/Sub 기반 실시간 챌린지 채팅 구조 구현
