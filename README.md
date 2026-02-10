@@ -1,35 +1,46 @@
 ## About
 백엔드/서버 개발자로서 기능 구현보다 기준과 검증을 먼저 정리하는 개발을 지향합니다.
-팀 프로젝트에서는 서버 구조와 데이터 흐름을 책임지고, 예외·보안·운영 관점에서 안정적인 동작을 만드는 역할을 맡아왔습니다.
 
 ## Projects
 
 ### DON DO THAT
-KB IT’s Your Life 교육 과정 최종 프로젝트로, 실제 은행 계좌를 연동해 지출 내역을 자동 수집·분류하고
+KB IT’s Your Life 교육 과정 최종 프로젝트로, 실제 은행 계좌를 연동해 지출 내역을 자동 수집·분류하고  
 과소비 분석과 절약 챌린지를 통해 소비 습관 형성을 돕는 핀테크 서비스입니다.
 
-Links
-- Server: https://github.com/bbaegi-six/dondothat-server
-- Client: https://github.com/bbaegi-six/dondothat-client
+Links  
+- Server: https://github.com/bbaegi-six/dondothat-server  
+- Client: https://github.com/bbaegi-six/dondothat-client  
 
-My Role
-- 백엔드 리드로 서버 아키텍처와 데이터 처리 흐름 설계
-- CODEF API 연동을 통한 계좌·거래내역 수집 및 중복·누락 방지 로직 구현
-- 키워드 기반 1차 분류와 LLM 기반 2차 분류를 결합한 지출 분류 구조 설계
-- Redis Pub/Sub 기반 실시간 챌린지 채팅 구조 구현
-- JWT(HttpOnly) 인증과 AES-256 암호화를 적용해 금융 데이터 보안 기준 정립
-- API 명세, 예외 처리 기준, 운영 시나리오를 문서화해 팀 협업 기준으로 활용
+## Tech
 
-Key Contributions
-- LLM 호출 비용과 지연을 줄이기 위해 키워드 사전 + 배치 처리 구조를 설계
-- 비동기 처리와 동시 요청 제한을 적용해 분류 안정성과 응답 속도 개선
-- 챌린지 실패 시 채팅 자동 종료 구조로 서비스 집중도와 지속성 확보
-- GitHub Actions 캐시 적용으로 Docker 빌드 시간 10분 → 2~3분 단축
+### Backend
+![Java](https://img.shields.io/badge/Java-17-007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-Framework-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=for-the-badge)
 
-Tech Stack
-- Backend: Java 17, Spring Framework, MyBatis
-- LLM: FastAPI, GPT-4o, asyncio
-- DB / Cache: MySQL, Redis
-- Real-time: Spring WebSocket, STOMP
-- Auth / Security: Spring Security, OAuth2, JWT(HttpOnly), AES-256
-- Infra / CI: Docker, Docker Compose, Nginx, AWS EC2, GitHub Actions
+### Data / Cache
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### LLM / AI
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![OpenAI](https://img.shields.io/badge/GPT--4o-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+### Infra / CI
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS-EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+## Tools
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-FF4500?style=flat-square&logo=anthropic&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-3C3C3D?style=flat-square&logo=openai&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
